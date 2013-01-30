@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+
+	<title>Your deck.js Presentation</title>
+	
+	<!-- Required stylesheet -->
+	<link rel="stylesheet" href="core/deck.core.css">
+	
+	<!-- Extension CSS files go here. Remove or add as needed. -->
+	<link rel="stylesheet" href="extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="extensions/status/deck.status.css">
+	<link rel="stylesheet" href="extensions/hash/deck.hash.css">
+	<link rel="stylesheet" href="extensions/scale/deck.scale.css">
+
+	<!-- Style theme. More available in /themes/style/ or create your own. -->
+	<link rel="stylesheet" href="themes/style/web-2.0.css">
+	
+	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+	<link rel="stylesheet" href="themes/transition/horizontal-slide.css">
+	
+	<!-- Required Modernizr file -->
+	<script src="modernizr.custom.js"></script>
+</head>
+<body class="deck-container">
+
+<!-- Begin slides. Just make elements with a class of slide. -->
+
+<section class="slide">
+	<h1>PHP Unconference 2012 - Ein Rückblick</h1>
+</section>
+
+<section class="slide">
+	<h2>Inhalt</h2>
+    <ol>
+        <li>Zahlen &amp; Fakten</li>
+        <li>Fotos</li>
+        <li>Themenüberblick</li>
+        <li>Party</li>
+        <li>Links</li>
+    </ol>
+</section>
+
+<section class="slide">
+	<h2>Zahlen &amp; Fakten</h2>
+    <ul>
+        <li>Unconference &asymp; Barcamp</li>
+        <li>250 Teilnehmer</li>
+        <li>Geomatikum Uni Hamburg</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Fotos</h2>
+    <p>Sessionplanung<img src="images/20120819_102409.jpg" alt="Sessionplanung" title="" /></p>
+</section>
+
+<section class="slide">
+    <h2>Fotos</h2>
+    <p>Punktevergabe<img src="images/1345282457546.jpg" alt="Punktevergabe" title="" /></p>
+</section>
+
+<section class="slide">
+    <h2>Fotos</h2>
+    <p>;-)<img src="images/IMG_2663.jpg" alt="Fachsimpeln" title="" /></p>
+</section>
+
+<section class="slide">
+    <h2>Fotos</h2>
+    <p>Spezialkaffee<img src="images/IMG_20120818_152937.jpg" alt="Spezialkaffee" title="" /></p>
+</section>
+
+<section class="slide">
+    <h2>Fotos</h2>
+    <p>In einer Session<img src="images/IMG_20120819_145308.jpg" alt="In einer Session" title="" /></p>
+</section>
+
+<section class="slide">
+    <h2>Fotos</h2>
+    <p>Fachsimpeln<img src="images/IMG_2653.jpg" alt="Fachsimpeln" title="" /></p>
+</section>
+
+<section class="slide">
+    <h2>Themenüberblick Samstag</h2>
+    <ul>
+        <li class="slide">Composer</li>
+        <li class="slide">Behaviour Driven Development</li>
+        <li class="slide">nginx</li>
+        <li class="slide">Writing Testable Code</li>
+        <li class="slide">Application Metrics</li>
+        <li class="slide">Die Macken von PHP</li>
+        <li class="slide">Zend Framework 2</li>
+        <li class="slide">Abstract Classes vs. Interfaces</li>
+        <li class="slide">State Machine in PHP</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Themenüberblick Sonntag</h2>
+    <ul>
+        <li class ="slide">The State of PHPUnit</li>
+        <li class ="slide">Code Reviews</li>
+        <li class ="slide">Domain Specific Languages</li>
+        <li class ="slide">Logging &amp; Experimental Testing</li>
+        <li class ="slide">Traits in PHP 5.4</li>
+        <li class ="slide">Large Scale PHP</li>
+        <li class ="slide"><code>yield</code> in PHP 5.5 &amp; JS in PHP</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Party</h2>
+    <p><img src="images/1345311640850.jpg" alt="Party" title="" /></p>
+</section>
+
+<section class="slide">
+    <h2>Links</h2>
+    <ul class="links">
+        <li><a href="http://www.php-unconference.de/">Webseite der PHP Unconference</a></li>
+        <li><a href="https://plus.google.com/u/0/events/c4ouf8hq7aqntt1rmr8red2im58/110783265471128215569">Event bei Google+</a></li>
+        <li>...</li>
+    </ul>
+</section>
+
+<!-- End slides. -->
+
+
+<!-- Begin extension snippets. Add or remove as needed. -->
+
+<!-- deck.navigation snippet -->
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+<!-- deck.status snippet -->
+<p class="deck-status">
+	<span class="deck-status-current"></span>
+	/
+	<span class="deck-status-total"></span>
+</p>
+
+<!-- deck.goto snippet -->
+<form action="." method="get" class="goto-form">
+	<label for="goto-slide">Go to slide:</label>
+	<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+	<datalist id="goto-datalist"></datalist>
+	<input type="submit" value="Go">
+</form>
+
+<!-- deck.hash snippet -->
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+<!-- End extension snippets. -->
+
+
+<!-- Required JS files. -->
+<script src="jquery-1.7.2.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="../core/deck.core.js"></script>
+<script src="../extensions/hash/deck.hash.js"></script>
+<script src="../extensions/menu/deck.menu.js"></script>
+<script src="../extensions/goto/deck.goto.js"></script>
+<script src="../extensions/status/deck.status.js"></script>
+<script src="../extensions/navigation/deck.navigation.js"></script>
+<script src="../extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+	$(function() {
+		$.deck('.slide');
+	});
+</script>
+</body>
+</html>
